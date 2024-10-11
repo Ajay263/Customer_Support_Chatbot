@@ -1,0 +1,42 @@
+[2024-10-11T06:29:24.462+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:29:24.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/faq_scraper_dag.py for tasks to queue
+[2024-10-11T06:29:24.466+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:24.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:29:24.491+0000] {processor.py:925} INFO - DAG(s) 'combined_faq_scraper_and_ingestion' retrieved from /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:29:24.520+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:24.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:29:24.549+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:24.549+0000] {dag.py:4180} INFO - Setting next_dagrun for combined_faq_scraper_and_ingestion to 2024-10-11 00:00:00+00:00, run_after=2024-10-12 00:00:00+00:00
+[2024-10-11T06:29:24.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/faq_scraper_dag.py took 0.113 seconds
+[2024-10-11T06:29:55.609+0000] {processor.py:186} INFO - Started process (PID=280) to work on /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:29:55.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/faq_scraper_dag.py for tasks to queue
+[2024-10-11T06:29:55.615+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:55.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:29:55.637+0000] {processor.py:925} INFO - DAG(s) 'combined_faq_scraper_and_ingestion' retrieved from /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:29:55.665+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:55.665+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:29:55.692+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:55.692+0000] {dag.py:4180} INFO - Setting next_dagrun for combined_faq_scraper_and_ingestion to 2024-10-11 00:00:00+00:00, run_after=2024-10-12 00:00:00+00:00
+[2024-10-11T06:29:55.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/faq_scraper_dag.py took 0.108 seconds
+[2024-10-11T06:30:26.615+0000] {processor.py:186} INFO - Started process (PID=332) to work on /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:30:26.617+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/faq_scraper_dag.py for tasks to queue
+[2024-10-11T06:30:26.619+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:26.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:30:26.642+0000] {processor.py:925} INFO - DAG(s) 'combined_faq_scraper_and_ingestion' retrieved from /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:30:26.669+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:26.669+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:30:26.695+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:26.695+0000] {dag.py:4180} INFO - Setting next_dagrun for combined_faq_scraper_and_ingestion to 2024-10-11 00:00:00+00:00, run_after=2024-10-12 00:00:00+00:00
+[2024-10-11T06:30:26.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/faq_scraper_dag.py took 0.106 seconds
+[2024-10-11T06:30:57.651+0000] {processor.py:186} INFO - Started process (PID=385) to work on /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:30:57.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/faq_scraper_dag.py for tasks to queue
+[2024-10-11T06:30:57.656+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:57.656+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:30:57.679+0000] {processor.py:925} INFO - DAG(s) 'combined_faq_scraper_and_ingestion' retrieved from /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:30:57.705+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:57.705+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:30:57.733+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:57.733+0000] {dag.py:4180} INFO - Setting next_dagrun for combined_faq_scraper_and_ingestion to 2024-10-11 00:00:00+00:00, run_after=2024-10-12 00:00:00+00:00
+[2024-10-11T06:30:57.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/faq_scraper_dag.py took 0.107 seconds
+[2024-10-11T06:31:28.520+0000] {processor.py:186} INFO - Started process (PID=438) to work on /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:31:28.523+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/faq_scraper_dag.py for tasks to queue
+[2024-10-11T06:31:28.526+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:28.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:31:28.549+0000] {processor.py:925} INFO - DAG(s) 'combined_faq_scraper_and_ingestion' retrieved from /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:31:28.577+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:28.576+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:31:28.603+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:28.603+0000] {dag.py:4180} INFO - Setting next_dagrun for combined_faq_scraper_and_ingestion to 2024-10-11 00:00:00+00:00, run_after=2024-10-12 00:00:00+00:00
+[2024-10-11T06:31:28.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/faq_scraper_dag.py took 0.108 seconds
+[2024-10-11T06:31:59.464+0000] {processor.py:186} INFO - Started process (PID=491) to work on /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:31:59.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/faq_scraper_dag.py for tasks to queue
+[2024-10-11T06:31:59.469+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:59.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:31:59.493+0000] {processor.py:925} INFO - DAG(s) 'combined_faq_scraper_and_ingestion' retrieved from /opt/airflow/dags/faq_scraper_dag.py
+[2024-10-11T06:31:59.520+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:59.520+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:31:59.547+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:59.547+0000] {dag.py:4180} INFO - Setting next_dagrun for combined_faq_scraper_and_ingestion to 2024-10-11 00:00:00+00:00, run_after=2024-10-12 00:00:00+00:00
+[2024-10-11T06:31:59.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/faq_scraper_dag.py took 0.108 seconds

@@ -1,0 +1,54 @@
+[2024-10-11T06:29:24.446+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:29:24.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rag_dag.py for tasks to queue
+[2024-10-11T06:29:24.450+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:24.450+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:29:24.454+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:24.453+0000] {SentenceTransformer.py:113} INFO - Load pretrained SentenceTransformer: multi-qa-MiniLM-L6-cos-v1
+[2024-10-11T06:29:24.791+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:24.791+0000] {SentenceTransformer.py:219} INFO - Use pytorch device_name: cpu
+[2024-10-11T06:29:24.804+0000] {processor.py:925} INFO - DAG(s) 'customer_support_rag' retrieved from /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:29:24.816+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:24.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:29:24.845+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:24.844+0000] {dag.py:4180} INFO - Setting next_dagrun for customer_support_rag to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2024-10-11T06:29:24.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rag_dag.py took 0.424 seconds
+[2024-10-11T06:29:55.167+0000] {processor.py:186} INFO - Started process (PID=273) to work on /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:29:55.169+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rag_dag.py for tasks to queue
+[2024-10-11T06:29:55.171+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:55.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:29:55.175+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:55.175+0000] {SentenceTransformer.py:113} INFO - Load pretrained SentenceTransformer: multi-qa-MiniLM-L6-cos-v1
+[2024-10-11T06:29:55.489+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:55.489+0000] {SentenceTransformer.py:219} INFO - Use pytorch device_name: cpu
+[2024-10-11T06:29:55.501+0000] {processor.py:925} INFO - DAG(s) 'customer_support_rag' retrieved from /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:29:55.632+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:55.632+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:29:55.655+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:55.655+0000] {dag.py:4180} INFO - Setting next_dagrun for customer_support_rag to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2024-10-11T06:29:55.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rag_dag.py took 0.514 seconds
+[2024-10-11T06:30:26.125+0000] {processor.py:186} INFO - Started process (PID=325) to work on /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:30:26.127+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rag_dag.py for tasks to queue
+[2024-10-11T06:30:26.130+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:26.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:30:26.133+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:26.133+0000] {SentenceTransformer.py:113} INFO - Load pretrained SentenceTransformer: multi-qa-MiniLM-L6-cos-v1
+[2024-10-11T06:30:26.550+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:26.550+0000] {SentenceTransformer.py:219} INFO - Use pytorch device_name: cpu
+[2024-10-11T06:30:26.562+0000] {processor.py:925} INFO - DAG(s) 'customer_support_rag' retrieved from /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:30:26.573+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:26.573+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:30:26.600+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:26.599+0000] {dag.py:4180} INFO - Setting next_dagrun for customer_support_rag to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2024-10-11T06:30:26.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rag_dag.py took 0.500 seconds
+[2024-10-11T06:30:57.113+0000] {processor.py:186} INFO - Started process (PID=378) to work on /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:30:57.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rag_dag.py for tasks to queue
+[2024-10-11T06:30:57.118+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:57.117+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:30:57.121+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:57.121+0000] {SentenceTransformer.py:113} INFO - Load pretrained SentenceTransformer: multi-qa-MiniLM-L6-cos-v1
+[2024-10-11T06:30:57.446+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:57.446+0000] {SentenceTransformer.py:219} INFO - Use pytorch device_name: cpu
+[2024-10-11T06:30:57.459+0000] {processor.py:925} INFO - DAG(s) 'customer_support_rag' retrieved from /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:30:57.597+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:57.596+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:30:57.620+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:57.620+0000] {dag.py:4180} INFO - Setting next_dagrun for customer_support_rag to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2024-10-11T06:30:57.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rag_dag.py took 0.533 seconds
+[2024-10-11T06:31:28.137+0000] {processor.py:186} INFO - Started process (PID=431) to work on /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:31:28.139+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rag_dag.py for tasks to queue
+[2024-10-11T06:31:28.142+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:28.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:31:28.145+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:28.145+0000] {SentenceTransformer.py:113} INFO - Load pretrained SentenceTransformer: multi-qa-MiniLM-L6-cos-v1
+[2024-10-11T06:31:28.396+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:28.396+0000] {SentenceTransformer.py:219} INFO - Use pytorch device_name: cpu
+[2024-10-11T06:31:28.408+0000] {processor.py:925} INFO - DAG(s) 'customer_support_rag' retrieved from /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:31:28.433+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:28.432+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:31:28.460+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:28.459+0000] {dag.py:4180} INFO - Setting next_dagrun for customer_support_rag to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2024-10-11T06:31:28.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rag_dag.py took 0.348 seconds
+[2024-10-11T06:31:59.078+0000] {processor.py:186} INFO - Started process (PID=484) to work on /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:31:59.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/rag_dag.py for tasks to queue
+[2024-10-11T06:31:59.083+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:59.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:31:59.087+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:59.087+0000] {SentenceTransformer.py:113} INFO - Load pretrained SentenceTransformer: multi-qa-MiniLM-L6-cos-v1
+[2024-10-11T06:31:59.335+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:59.335+0000] {SentenceTransformer.py:219} INFO - Use pytorch device_name: cpu
+[2024-10-11T06:31:59.348+0000] {processor.py:925} INFO - DAG(s) 'customer_support_rag' retrieved from /opt/airflow/dags/rag_dag.py
+[2024-10-11T06:31:59.480+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:59.480+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:31:59.506+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:59.505+0000] {dag.py:4180} INFO - Setting next_dagrun for customer_support_rag to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2024-10-11T06:31:59.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/rag_dag.py took 0.453 seconds

@@ -1,0 +1,48 @@
+[2024-10-11T06:29:24.610+0000] {processor.py:186} INFO - Started process (PID=219) to work on /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:29:24.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/db_init_dag.py for tasks to queue
+[2024-10-11T06:29:24.613+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:24.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:29:24.626+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:24.625+0000] {db.py:331} INFO - Timezone check is disabled.
+[2024-10-11T06:29:24.635+0000] {processor.py:925} INFO - DAG(s) 'database_operations' retrieved from /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:29:24.662+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:24.662+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:29:24.679+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:24.679+0000] {dag.py:4180} INFO - Setting next_dagrun for database_operations to None, run_after=None
+[2024-10-11T06:29:24.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/db_init_dag.py took 0.095 seconds
+[2024-10-11T06:29:55.716+0000] {processor.py:186} INFO - Started process (PID=285) to work on /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:29:55.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/db_init_dag.py for tasks to queue
+[2024-10-11T06:29:55.720+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:55.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:29:55.733+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:55.733+0000] {db.py:331} INFO - Timezone check is disabled.
+[2024-10-11T06:29:55.742+0000] {processor.py:925} INFO - DAG(s) 'database_operations' retrieved from /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:29:55.769+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:55.768+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:29:55.785+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:29:55.785+0000] {dag.py:4180} INFO - Setting next_dagrun for database_operations to None, run_after=None
+[2024-10-11T06:29:55.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/db_init_dag.py took 0.094 seconds
+[2024-10-11T06:30:26.663+0000] {processor.py:186} INFO - Started process (PID=337) to work on /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:30:26.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/db_init_dag.py for tasks to queue
+[2024-10-11T06:30:26.668+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:26.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:30:26.680+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:26.680+0000] {db.py:331} INFO - Timezone check is disabled.
+[2024-10-11T06:30:26.690+0000] {processor.py:925} INFO - DAG(s) 'database_operations' retrieved from /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:30:26.717+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:26.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:30:26.734+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:26.734+0000] {dag.py:4180} INFO - Setting next_dagrun for database_operations to None, run_after=None
+[2024-10-11T06:30:26.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/db_init_dag.py took 0.097 seconds
+[2024-10-11T06:30:57.684+0000] {processor.py:186} INFO - Started process (PID=390) to work on /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:30:57.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/db_init_dag.py for tasks to queue
+[2024-10-11T06:30:57.688+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:57.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:30:57.701+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:57.701+0000] {db.py:331} INFO - Timezone check is disabled.
+[2024-10-11T06:30:57.711+0000] {processor.py:925} INFO - DAG(s) 'database_operations' retrieved from /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:30:57.737+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:57.736+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:30:57.753+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:30:57.753+0000] {dag.py:4180} INFO - Setting next_dagrun for database_operations to None, run_after=None
+[2024-10-11T06:30:57.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/db_init_dag.py took 0.095 seconds
+[2024-10-11T06:31:28.660+0000] {processor.py:186} INFO - Started process (PID=443) to work on /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:31:28.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/db_init_dag.py for tasks to queue
+[2024-10-11T06:31:28.665+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:28.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:31:28.678+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:28.678+0000] {db.py:331} INFO - Timezone check is disabled.
+[2024-10-11T06:31:28.687+0000] {processor.py:925} INFO - DAG(s) 'database_operations' retrieved from /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:31:28.713+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:28.713+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:31:28.730+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:28.730+0000] {dag.py:4180} INFO - Setting next_dagrun for database_operations to None, run_after=None
+[2024-10-11T06:31:28.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/db_init_dag.py took 0.095 seconds
+[2024-10-11T06:31:59.569+0000] {processor.py:186} INFO - Started process (PID=496) to work on /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:31:59.571+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/db_init_dag.py for tasks to queue
+[2024-10-11T06:31:59.573+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:59.573+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:31:59.586+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:59.586+0000] {db.py:331} INFO - Timezone check is disabled.
+[2024-10-11T06:31:59.596+0000] {processor.py:925} INFO - DAG(s) 'database_operations' retrieved from /opt/airflow/dags/db_init_dag.py
+[2024-10-11T06:31:59.622+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:59.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T06:31:59.639+0000] {logging_mixin.py:190} INFO - [2024-10-11T06:31:59.638+0000] {dag.py:4180} INFO - Setting next_dagrun for database_operations to None, run_after=None
+[2024-10-11T06:31:59.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/db_init_dag.py took 0.095 seconds
