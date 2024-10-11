@@ -76,7 +76,11 @@ After cleaning, the FAQ data is embedded using **sentence transformers**, which 
 
      Manages and orchestrates the scraping tasks and pipeline workflows for retrieving FAQ data from Econet, EcoSure, and EcoCash websites.
 
-10. **FastAPI**
+   !()[img/airflow.png]
+
+    !()[img/airflow2.png]
+
+11. **FastAPI**
 
      The backend API is built using FastAPI, which handles user queries and integrates with Twilio to communicate via WhatsApp.
 
