@@ -76,9 +76,13 @@ After cleaning, the FAQ data is embedded using **sentence transformers**, which 
 
      Manages and orchestrates the scraping tasks and pipeline workflows for retrieving FAQ data from Econet, EcoSure, and EcoCash websites.
 
-   !()[img/airflow.png]
 
-    !()[img/airflow2.png]
+    
+    ![](img/airflow.png)
+    
+    ![](img/airflow2.png)S
+
+  
 
 11. **FastAPI**
 
