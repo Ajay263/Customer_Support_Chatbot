@@ -70,9 +70,18 @@ def build_prompt(query: str, search_results: list) -> str:
         str: A formatted prompt string ready for language model consumption.
     """
     prompt_template = """
-    You are a highly knowledgeable, friendly, and empathetic customer support assistant for a telecommunications company...
-    (continued)
-    """
+        You are a highly knowledgeable, friendly, and empathetic customer support assistant for a telecommunications company.
+        Your role is to assist customers by answering their questions with accurate, clear, and concise information based on the CONTEXT provided. 
+        Please respond in a conversational tone that makes the customer feel heard and understood and Be concise, professional, and empathetic in your responses. 
+        Use only the facts from the CONTEXT when answering the customer's QUESTION.
+        If the CONTEXT does not have the context to answer the QUESTION, gently suggest that the customer 
+        reach out to a live support agent for further assistance.
+
+        QUESTION: {question}
+
+        CONTEXT: 
+        {context}
+        """.strip()
     context = "\n\n".join([f"question: {doc['question']}\nanswer: {doc['answer']}" for doc in search_results])
     return prompt_template.format(question=query, context=context).strip()
 
@@ -120,9 +129,24 @@ def evaluate_relevance(question: str, answer: str) -> Tuple[str, str, Dict[str, 
     """
     logging.info("Evaluating relevance of generated answer...")
     prompt_template = """
-    You are an expert evaluator for a Retrieval-Augmented Generation (RAG) system...
-    (continued)
-    """
+    You are an expert evaluator for a Retrieval-Augmented Generation (RAG) system.
+    Your task is to analyze the relevance of the generated answer to the given question.
+    Based on the relevance of the generated answer, you will classify it
+    as "NON_RELEVANT", "PARTLY_RELEVANT", or "RELEVANT".
+
+    Here is the data for evaluation:
+
+    Question: {question}
+    Generated Answer: {answer}
+
+    Please analyze the content and context of the generated answer in relation to the question
+    and provide your evaluation in parsable JSON without using code blocks:
+
+    {{
+      "Relevance": "NON_RELEVANT" | "PARTLY_RELEVANT" | "RELEVANT",
+      "Explanation": "[Provide a brief explanation for your evaluation]"
+    }}
+    """.strip()
     prompt = prompt_template.format(question=question, answer=answer)
     evaluation, tokens, _ = llm(prompt)
 
